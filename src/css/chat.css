@@ -1,0 +1,107 @@
+.chat{
+    /* bcz sidebar taken 35%, so its take 65% */
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+/* chat header */
+.chat .chat__header{
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid lightgray;
+   padding: 0.625rem;
+}
+.chat__headerInfo{
+    /* take all space from top and bottom*/
+    flex: 1;
+    margin-left: 0.625rem;
+}
+.chat__headerInfo h3{
+    font-size: 1rem;
+}
+.chat__headerInfo p{
+    font-size: 0.75rem;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__right svg{
+    font-size: 1.125rem;
+}
+
+/* chat body */
+
+.chat__body{
+   background-color: #000;
+   /* left right and below all space are taken */
+   flex: 1;
+   background-image: url(../images/bgimg.png);
+   padding: 1.562rem 0.625rem;
+   /* if more msg came then vertically overflow-y : auto means scrollbar came */
+   overflow-y: auto;
+}
+.chat__body .chat__message{
+    /* relative bcz we need chat__name absolute */
+    position: relative;
+    background-color: #fff;
+    width: fit-content;
+    padding: 0.31rem;
+    border-radius: 0.31rem;
+    font-size: 0.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.chat__name{
+    position: absolute;
+    /* name move 18px above */
+    top: -1.125rem;
+    left: .112rem;
+    font-size: 0.54rem;
+    font-weight: bold;
+    width: 5.7rem;   
+}
+.chat__time{
+    font-size: 0.625rem;
+    margin-left: 0.625rem;
+}
+/* reciever part */
+.chat__reciever{
+    background-color: #d6f8c6 !important;
+    margin-left: auto;
+}
+
+/* footer part */
+
+.chat__footer{
+    display: flex;
+    align-items: center;
+    padding: 0.625rem;
+}
+.chat__footer svg{
+    padding: 0.625rem;
+    color: gray;
+}
+.chat__footer form{
+   flex: 1;
+}
+.chat__footer form input[type='text']{
+    border: 0;
+    height: 2.5rem;
+    outline: 0;
+    width: 99%;
+    padding-left: 0.43rem;
+    border-radius: 0.312rem;
+}
+.chat__footer .icon{
+    margin-left: 0.687rem;
+    width: 5%;
+    height: 2.5rem;
+}
+.chat__footer .sicon{
+    height: 2.5rem;
+}
+.chat__footer .micon{
+   margin-right: 0.625rem;
+}
