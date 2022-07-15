@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reactrooms/static/css/main.dc98a412.css",
+    "main.css": "/reactrooms/static/css/main.8b9b872b.css",
     "main.js": "/reactrooms/static/js/main.2c72c016.js",
     "static/media/bgimg.png": "/reactrooms/static/media/bgimg.ed848459d3a10f2c234f.png",
     "static/media/iconlogin.png": "/reactrooms/static/media/iconlogin.ed956aaae9fcb3a36ba0.png",
     "index.html": "/reactrooms/index.html",
-    "main.dc98a412.css.map": "/reactrooms/static/css/main.dc98a412.css.map",
+    "main.8b9b872b.css.map": "/reactrooms/static/css/main.8b9b872b.css.map",
     "main.2c72c016.js.map": "/reactrooms/static/js/main.2c72c016.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc98a412.css",
+    "static/css/main.8b9b872b.css",
     "static/js/main.2c72c016.js"
   ]
 }
